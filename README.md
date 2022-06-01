@@ -1,2 +1,3 @@
-# anna-bella
-Projeto site blog para modelo.
+# Anna Bella
+## Projeto site blog para modelo.
+![capa.png](./images/capa.png)
