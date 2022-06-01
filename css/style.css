@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+
+body {
+  background-image: url(../images/fundo.png);
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 900px;
+}
+
+#navegacao {
+  padding: 30px;
+  background-color: #d3d3bb;
+  text-align: center;
+}
+#navegacao a {
+  margin: 0;
+  padding-left: 5px;
+  text-decoration: none;
+  color: #74808f;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#conteudo {
+  background-color: #fcfbea;
+  padding: 20px;
+}
+#conteudo h2 {
+  color: #878773;
+}
+#conteudo p,
+#rodape {
+  margin: 15px 0;
+}
+
+#rodape {
+  text-align: center;
+}
