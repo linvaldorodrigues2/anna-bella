@@ -41,6 +41,18 @@ body {
   margin: 15px 0;
 }
 
+/*campnhas publicitarias*/
+.foto{
+    border: 10px solid #878773;
+    width: 640px;
+    height: 425px;
+    display: flex;
+    margin: 0 auto;
+}
+.foto img{
+    width: 100%;
+}
+
 #rodape {
   text-align: center;
 }
