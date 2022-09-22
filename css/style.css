@@ -62,23 +62,34 @@ header {
   width: 50%;
   padding: 20px;
 }
-#conteudo h2 {
+#conteudo h2,
+#conteudo-campanha h2 {
   color: #fff;
 }
-#conteudo p {
+#conteudo p,
+#conteudo-campanha p {
   font-size: 1.2em;
 }
 #conteudo p,
+#conteudo-campanha p,
 #rodape {
   color: #fff;
   margin: 15px 0;
 }
 
-/*campnhas publicitarias*/
+/*campanhas publicitarias*/
+#conteudo-campanha {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.galeria-foto {
+  display: flex;
+  flex-direction: row;
+}
 .foto {
-  border: 10px solid #878773;
-  width: 640px;
-  height: 425px;
+  width: 372px;
   display: flex;
   margin: 0 auto;
 }
