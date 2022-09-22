@@ -59,14 +59,18 @@ header {
 }
 
 #conteudo {
-  background-color: #fcfbea;
+  width: 50%;
   padding: 20px;
 }
 #conteudo h2 {
-  color: #878773;
+  color: #fff;
+}
+#conteudo p {
+  font-size: 1.2em;
 }
 #conteudo p,
 #rodape {
+  color: #fff;
   margin: 15px 0;
 }
 
