@@ -2,31 +2,60 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Tahoma, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-  background-image: url(../images/fundo.png);
-  display: flex;
-  justify-content: center;
+  background: #000;
 }
-
 #container {
-  width: 900px;
+  width: 1800px;
+  margin: 0 auto;
 }
-
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
 #navegacao {
-  padding: 30px;
-  background-color: #d3d3bb;
-  text-align: center;
+  margin: 30px 150px 0 0;
 }
 #navegacao a {
-  margin: 0;
+  margin: 10px 20px;
   padding-left: 5px;
   text-decoration: none;
-  color: #74808f;
-  text-transform: uppercase;
-  font-weight: bold;
+  color: #fff;
+}
+#navegacao a:hover {
+  border-bottom: 1px solid #fff;
+}
+#capa {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+#nome-capa {
+  width: 43%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 6em;
+  margin: 0 60px;
+}
+#foto-capa img {
+  width: 710px;
+  margin-left: 60px;
+  position: relative;
+  right: -80px;
+}
+.linha {
+  position: relative;
+  top: -19px;
+}
+.linha img {
+  width: 95%;
+  height: 1px;
 }
 
 #conteudo {
@@ -42,15 +71,15 @@ body {
 }
 
 /*campnhas publicitarias*/
-.foto{
-    border: 10px solid #878773;
-    width: 640px;
-    height: 425px;
-    display: flex;
-    margin: 0 auto;
+.foto {
+  border: 10px solid #878773;
+  width: 640px;
+  height: 425px;
+  display: flex;
+  margin: 0 auto;
 }
-.foto img{
-    width: 100%;
+.foto img {
+  width: 100%;
 }
 
 #rodape {
