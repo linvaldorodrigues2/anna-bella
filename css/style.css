@@ -96,6 +96,70 @@ header {
 .foto img {
   width: 100%;
 }
+/*Contato*/
+#nome-capa-contato {
+  width: 43%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 6em;
+}
+#form-contato {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#form-conteudo {
+  width: 90%;
+  position: relative;
+  left: 200px;
+  bottom: -90px;
+}
+#formulario #nome,
+#formulario #email,
+#formulario #form-texto {
+  margin: 30px 0;
+}
+#formulario label {
+  color: #fff;
+  font-size: 1.5em;
+  display: block;
+  margin: 10px 0;
+}
+#formulario input {
+  width: 80%;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 1.2em;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+#formulario #form-texto textarea {
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 10px 10px;
+}
+#formulario #button {
+  width: 62%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#formulario button {
+  width: 50%;
+  height: 40px;
+  font-size: 1.2em;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+}
+#formulario button:hover {
+  background: #ccc;
+}
 
 #rodape {
   text-align: center;

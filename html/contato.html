@@ -9,35 +9,51 @@
   </head>
   <body>
     <main id="container">
-      <header id="cabecalho">
-        <div id="capa">
-          <img src="../images/capa.png" alt="capa.pnj" />
-        </div>
+      <header>
         <nav id="navegacao">
-          <a href="home.html">Home</a> | <a href="">Biografia</a> |
-          <a href="campanhas.html">Campanhas publicitárias</a> |
+          <a href="home.html">Home</a>
+          <a href="#">Biografia</a>
+          <a href="campanhas.html">Campanhas publicitárias</a>
           <a href="contato.html">Contatos</a>
         </nav>
       </header>
-      <section id="conteudo">
-        <article>
-          <h2>Contato</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
-            deserunt cumque, debitis asperiores ipsum velit necessitatibus
-            repellat numquam! Voluptatibus inventore culpa reiciendis aut beatae
-            animi ratione at placeat rem libero.
-          </p>
-          <picture class="foto">
-            <img src="../images/foto1.png" alt="foto1" />
-          </picture>
-        </article>
-        <article>
-          <p><strong>E-amail:</strong>contato@gmail.com</p>
-          <p><strong>Telefone:</strong>(88)91234.5678</p>
-        </article>
-      </section>
 
+      <div id="capa">
+        <div id="form-contato">
+          <div id="form-conteudo">
+            <div id="nome-capa-contato">Contato</div>
+            <form action="" id="formulario">
+              <div id="nome">
+                <label for="">Nome</label>
+                <input type="text" placeholder="Digite seu nome" />
+              </div>
+              <div id="email">
+                <label for="">E-mail</label>
+                <input type="email" placeholder="Digite seu e-mail" />
+              </div>
+              <div id="form-texto">
+                <textarea
+                  name=""
+                  id=""
+                  cols="64"
+                  rows="10"
+                  placeholder="Digite sua mensagem"
+                ></textarea>
+              </div>
+              <div id="button">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div id="foto-capa">
+          <img src="../images/capa3.jpg" alt="capa3" />
+        </div>
+      </div>
+      <div class="linha">
+        <img src="../images/linha.png" alt="" />
+      </div>
       <footer id="rodape">
         <strong> &copy; Todos os direitos reservados. </strong>
       </footer>
