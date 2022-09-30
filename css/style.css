@@ -20,14 +20,23 @@ header {
 #navegacao {
   margin: 30px 150px 0 0;
 }
+#navegacao ul li {
+  display: inline;
+}
 #navegacao a {
-  margin: 10px 20px;
-  padding-left: 5px;
+  margin: 10px 20px 0 0;
+  padding-bottom: 5px;
   text-decoration: none;
   color: #fff;
 }
 #navegacao a:hover {
   border-bottom: 1px solid #fff;
+}
+#home .home a,
+#campanhas .campanhas a,
+#contato .contato a {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
 }
 #capa {
   display: flex;
